@@ -9,6 +9,9 @@ export class MainController {
 
     this.activate($timeout, webDevTec);
   }
+  postMessage(){
+        console.log("post");
+    }
 
   activate($timeout, webDevTec) {
     this.getWebDevTec(webDevTec);
